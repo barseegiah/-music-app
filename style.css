@@ -48,3 +48,38 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background: #007BFF;
+    border-radius: 5px;
+    width: 0%;
+}
+
+#currentTime, #duration {
+    font-size: 14px;
+}
+
+.speed-control {
+    margin-top: 20px;
+}
+
+#speedRange {
+    width: 100%;
+    margin-top: 10px;
+}
